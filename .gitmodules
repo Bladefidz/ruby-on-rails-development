@@ -1,3 +1,12 @@
 [submodule "coursera/introduction/fullstack-course1-module1"]
 	path = coursera/introduction/fullstack-course1-module1
 	url = https://github.com/jhu-ep-coursera/fullstack-course1-module1.git
+[submodule "coursera/fullstack-course1-module2"]
+	path = coursera/fullstack-course1-module2
+	url = https://github.com/Bladefidz/fullstack-course1-module2.git
+[submodule "coursera/fullstack-course1-module3"]
+	path = coursera/fullstack-course1-module3
+	url = https://github.com/Bladefidz/fullstack-course1-module3.git
+[submodule "coursera/fullstack-course1-module3-blackbox-testing"]
+	path = coursera/fullstack-course1-module3-blackbox-testing
+	url = https://github.com/Bladefidz/fullstack-course1-module3-blackbox-testing.git
