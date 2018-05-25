@@ -1,0 +1,3162 @@
+/tmp/ruby-build.20180525195325.26815 ~/Codes/ruby-on-rails-development/coursera
+/tmp/ruby-build.20180525195325.26815/ruby-2.2.3 /tmp/ruby-build.20180525195325.26815 ~/Codes/ruby-on-rails-development/coursera
+configure: loading site script /usr/share/site/x86_64-unknown-linux-gnu
+config.guess already exists
+config.sub already exists
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether gcc needs -traditional... no
+checking for ld... ld
+checking whether the linker is GNU ld... yes
+checking whether gcc -E accepts -o... yes
+checking for ranlib... ranlib
+checking for ar... ar
+checking for as... as
+checking for objdump... objdump
+checking for objcopy... objcopy
+checking for nm... nm
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for dtrace... no
+checking for dot... dot
+checking for doxygen... no
+checking for pkg-config... pkg-config
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for cd using physical directory... cd -P
+checking whether CFLAGS is valid... yes
+checking whether LDFLAGS is valid... yes
+checking whether -Wno-unused-parameter is accepted as CFLAGS... yes
+checking whether -Wno-parentheses is accepted as CFLAGS... yes
+checking whether -Wno-long-long is accepted as CFLAGS... yes
+checking whether -Wno-missing-field-initializers is accepted as CFLAGS... yes
+checking whether -Wunused-variable is accepted as CFLAGS... yes
+checking whether -Wpointer-arith is accepted as CFLAGS... yes
+checking whether -Wwrite-strings is accepted as CFLAGS... yes
+checking whether -Wdeclaration-after-statement is accepted as CFLAGS... yes
+checking whether -Wshorten-64-to-32 is accepted as CFLAGS... no
+checking whether -Wimplicit-function-declaration is accepted as CFLAGS... yes
+checking whether -Wdivision-by-zero is accepted as CFLAGS... no
+checking whether -Wdeprecated-declarations is accepted as CFLAGS... yes
+checking whether -Wno-packed-bitfield-compat is accepted as CFLAGS... yes
+checking whether -Wextra-tokens is accepted as CFLAGS... no
+checking whether -Wall -Wextra is accepted as CFLAGS... yes
+checking whether -Qunused-arguments is accepted as CFLAGS... no
+checking whether -D_FORTIFY_SOURCE=2 is accepted as CFLAGS... yes
+checking whether -fstack-protector is accepted as CFLAGS... yes
+checking whether -fstack-protector is accepted as LDFLAGS... yes
+checking whether -std=iso9899:1999 is accepted as CFLAGS... yes
+checking whether -fno-strict-overflow is accepted as CFLAGS... yes
+checking whether -ggdb3 is accepted as CFLAGS... yes
+checking whether -fvisibility=hidden is accepted as CFLAGS... yes
+checking whether -fno-fast-math is accepted as CFLAGS... yes
+checking for crypt in -lcrypt... yes
+checking for dlopen in -ldl... yes
+checking for shl_load in -ldld... no
+checking for shutdown in -lsocket... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sys/fcntl.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking syscall.h usability... yes
+checking syscall.h presence... yes
+checking for syscall.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking a.out.h usability... yes
+checking a.out.h presence... yes
+checking for a.out.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/utime.h usability... no
+checking sys/utime.h presence... no
+checking for sys/utime.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking ucontext.h usability... yes
+checking ucontext.h presence... yes
+checking for ucontext.h... yes
+checking intrinsics.h usability... no
+checking intrinsics.h presence... no
+checking for intrinsics.h... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking sys/sendfile.h usability... yes
+checking sys/sendfile.h presence... yes
+checking for sys/sendfile.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking net/socket.h usability... no
+checking net/socket.h presence... no
+checking for net/socket.h... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking process.h usability... no
+checking process.h presence... no
+checking for process.h... no
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking atomic.h usability... no
+checking atomic.h presence... no
+checking for atomic.h... no
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking malloc_np.h usability... no
+checking malloc_np.h presence... no
+checking for malloc_np.h... no
+checking malloc/malloc.h usability... no
+checking malloc/malloc.h presence... no
+checking for malloc/malloc.h... no
+checking setjmpex.h usability... no
+checking setjmpex.h presence... no
+checking for setjmpex.h... no
+checking sys/attr.h usability... no
+checking sys/attr.h presence... no
+checking for sys/attr.h... no
+checking sys/id.h usability... no
+checking sys/id.h presence... no
+checking for sys/id.h... no
+checking gmp.h usability... yes
+checking gmp.h presence... yes
+checking for gmp.h... yes
+checking for __gmpz_init in -lgmp... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether byte ordering is bigendian... no
+checking for an ANSI C-conforming const... yes
+checking whether char is unsigned... no
+checking for inline... inline
+checking for working volatile... yes
+checking for typeof syntax and keyword spelling... __typeof__
+checking for long long... yes
+checking for off_t... yes
+checking char bit... 8
+checking size of int... 4
+checking size of short... 2
+checking size of long... 8
+checking size of long long... 8
+checking size of __int64... 0
+checking size of __int128... 16
+checking size of off_t... 8
+checking size of void*... 8
+checking size of float... 4
+checking size of double... 8
+checking size of time_t... 8
+checking size of clock_t... 8
+checking packed struct attribute... x __attribute__((packed))
+checking for printf prefix for long long... ll
+checking for pid_t... yes
+checking for convertible type of pid_t... INT
+checking for uid_t... yes
+checking for convertible type of uid_t... UINT
+checking for gid_t... yes
+checking for convertible type of gid_t... UINT
+checking for time_t... yes
+checking for convertible type of time_t... LONG
+checking for dev_t... yes
+checking for convertible type of dev_t... ULONG
+checking for mode_t... yes
+checking for convertible type of mode_t... UINT
+checking for rlim_t... yes
+checking for convertible type of rlim_t... ULONG
+checking for off_t... (cached) yes
+checking for convertible type of off_t... LONG
+checking for clockid_t... yes
+checking for convertible type of clockid_t... INT
+checking for prototypes... yes
+checking token paste string... ansi
+checking stringization... #expr
+checking string literal concatenation... yes
+checking for variable length prototypes and stdarg.h... yes
+checking for variable length macro... yes
+checking for NORETURN function attribute... __attribute__ ((noreturn)) x
+checking for DEPRECATED function attribute... __attribute__ ((deprecated)) x
+checking for NOINLINE function attribute... __attribute__ ((noinline)) x
+checking for stdcall function attribute... x
+checking for cdecl function attribute... x
+checking for fastcall function attribute... x
+checking for FUNC_MINIMIZED function attribute... __attribute__ ((optimize("-Os","-fomit-frame-pointer"))) x
+checking for function alias... alias
+checking for __atomic builtins... yes
+checking for __sync builtins... yes
+checking for __builtin_unreachable... yes
+checking for exported function attribute... __attribute__ ((visibility("default")))
+checking for function name string predefined identifier... __func__
+checking whether sys_nerr is declared... yes
+checking whether getenv is declared... yes
+checking for size_t... yes
+checking size of size_t... 8
+checking size of ptrdiff_t... 8
+checking for printf prefix for size_t... z
+checking for printf prefix for ptrdiff_t... t
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_rdev... yes
+checking size of struct stat.st_size... SIZEOF_OFF_T
+checking size of struct stat.st_blocks... SIZEOF_OFF_T
+checking size of struct stat.st_ino... SIZEOF_LONG
+checking for struct stat.st_atim... yes
+checking for struct stat.st_atimespec... no
+checking for struct stat.st_atimensec... no
+checking for struct stat.st_mtim... yes
+checking for struct stat.st_mtimespec... no
+checking for struct stat.st_mtimensec... no
+checking for struct stat.st_ctim... yes
+checking for struct stat.st_ctimespec... no
+checking for struct stat.st_ctimensec... no
+checking for struct stat.st_birthtimespec... no
+checking for struct timeval... yes
+checking size of struct timeval.tv_sec... SIZEOF_TIME_T
+checking for struct timespec... yes
+checking for struct timezone... yes
+checking for clockid_t... (cached) yes
+checking for fd_mask... yes
+checking for int8_t... yes
+checking size of int8_t... 1
+checking for uint8_t... yes
+checking size of uint8_t... 1
+checking for int16_t... yes
+checking size of int16_t... 2
+checking for uint16_t... yes
+checking size of uint16_t... 2
+checking for int32_t... yes
+checking size of int32_t... 4
+checking for uint32_t... yes
+checking size of uint32_t... 4
+checking for int64_t... yes
+checking size of int64_t... 8
+checking for uint64_t... yes
+checking size of uint64_t... 8
+checking for int128_t... __int128
+checking for uint128_t... unsigned __int128
+checking for intptr_t... yes
+checking size of intptr_t... 8
+checking for uintptr_t... yes
+checking size of uintptr_t... 8
+checking for ssize_t... yes
+checking size of ssize_t... 8
+checking for stack end address... __libc_stack_end
+checking for uid_t in sys/types.h... (cached) yes
+checking type of array argument to getgroups... gid_t
+checking return type of signal handlers... void
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for dynamic size alloca... ok
+checking for working memcmp... yes
+checking for broken erfc of glibc-2.3.6 on IA64... no
+checking for acosh... yes
+checking for cbrt... yes
+checking for crypt... yes
+checking for dup2... yes
+checking for erf... yes
+checking for ffs... yes
+checking for finite... yes
+checking for flock... yes
+checking for hypot... yes
+checking for isinf... yes
+checking for isnan... yes
+checking for lgamma_r... yes
+checking for memmove... yes
+checking for nextafter... yes
+checking for setproctitle... no
+checking for strchr... yes
+checking for strerror... yes
+checking for strlcat... no
+checking for strlcpy... no
+checking for strstr... yes
+checking for tgamma... yes
+checking sys/pstat.h usability... no
+checking sys/pstat.h presence... no
+checking for sys/pstat.h... no
+checking for signbit... yes
+checking for pid_t... (cached) yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for __syscall... no
+checking for _longjmp... yes
+checking for _setjmp... yes
+checking for _setjmpex... no
+checking for atan2l... yes
+checking for atan2f... yes
+checking for chroot... yes
+checking for chsize... no
+checking for clock_gettime... yes
+checking for cosh... yes
+checking for daemon... (cached) no
+checking for dirfd... yes
+checking for dl_iterate_phdr... yes
+checking for dlopen... yes
+checking for dladdr... yes
+checking for dup... yes
+checking for dup3... yes
+checking for eaccess... yes
+checking for endgrent... yes
+checking for fchmod... yes
+checking for fchown... yes
+checking for fcntl... yes
+checking for fdatasync... yes
+checking for fgetattrlist... no
+checking for fmod... yes
+checking for fsync... yes
+checking for ftruncate... yes
+checking for ftruncate64... yes
+checking for getattrlist... no
+checking for getcwd... yes
+checking for getgidx... no
+checking for getgrnam... yes
+checking for getgrnam_r... yes
+checking for getgroups... yes
+checking for getpgid... yes
+checking for getpgrp... yes
+checking for getpriority... yes
+checking for getpwnam_r... yes
+checking for getresgid... yes
+checking for getresuid... yes
+checking for getrlimit... yes
+checking for getsid... yes
+checking for gettimeofday... yes
+checking for getuidx... no
+checking for gmtime_r... yes
+checking for initgroups... yes
+checking for ioctl... yes
+checking for isfinite... no
+checking for issetugid... no
+checking for killpg... yes
+checking for lchmod... no
+checking for lchown... yes
+checking for link... yes
+checking for llabs... yes
+checking for lockf... yes
+checking for log2... yes
+checking for lstat... yes
+checking for malloc_usable_size... yes
+checking for malloc_size... no
+checking for mblen... yes
+checking for memalign... yes
+checking for writev... yes
+checking for memrchr... yes
+checking for memmem... yes
+checking for mktime... yes
+checking for pipe2... yes
+checking for poll... yes
+checking for posix_fadvise... yes
+checking for posix_memalign... yes
+checking for ppoll... yes
+checking for pread... yes
+checking for qsort_r... yes
+checking for readlink... yes
+checking for round... yes
+checking for sched_getaffinity... yes
+checking for seekdir... yes
+checking for select_large_fdset... no
+checking for sendfile... yes
+checking for setegid... yes
+checking for setenv... yes
+checking for seteuid... yes
+checking for setgid... yes
+checking for setgroups... yes
+checking for setpgid... yes
+checking for setpgrp... yes
+checking for setregid... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for setreuid... yes
+checking for setrgid... no
+checking for setrlimit... yes
+checking for setruid... no
+checking for setsid... yes
+checking for setuid... yes
+checking for shutdown... yes
+checking for sigaction... yes
+checking for sigaltstack... yes
+checking for sigprocmask... yes
+checking for sinh... yes
+checking for spawnv... no
+checking for symlink... yes
+checking for syscall... yes
+checking for sysconf... yes
+checking for tanh... yes
+checking for telldir... yes
+checking for timegm... yes
+checking for times... yes
+checking for truncate... yes
+checking for truncate64... yes
+checking for unsetenv... yes
+checking for utimensat... yes
+checking for utimes... yes
+checking for wait4... yes
+checking for waitpid... yes
+checking if getcwd allocates buffer if NULL is given... yes
+checking for __builtin_bswap16... yes
+checking for __builtin_bswap32... yes
+checking for __builtin_bswap64... yes
+checking for __builtin_clz... yes
+checking for __builtin_clzl... yes
+checking for __builtin_clzll... yes
+checking for __builtin_choose_expr... yes
+checking for __builtin_choose_expr_constant_p... yes
+checking for __builtin_types_compatible_p... yes
+checking whether qsort_r is GNU version... yes
+checking whether qsort_r is BSD version... no
+checking whether atan2 handles Inf as C99... yes
+checking for clock_getres... yes
+checking for unsetenv returns a value... yes
+checking for sigsetjmp as a macro or function... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct tm.tm_gmtoff... yes
+checking for external int daylight... yes
+checking for external timezone... long
+checking for external altzone... no
+checking for timezone... yes
+checking whether timezone requires zero arguments... yes
+checking for negative time_t for gmtime(3)... yes
+checking for localtime(3) overflow correctly... yes
+checking whether right shift preserve sign bit... yes
+checking whether _SC_CLK_TCK is supported... yes
+checking stack growing direction on x86_64... -1
+checking for pthread_kill in -lthr... no
+checking for pthread_kill in -lpthread... yes
+checking for pthread_np.h... no
+checking whether pthread_t is scalar type... yes
+checking for sched_yield... yes
+checking for pthread_attr_setinheritsched... yes
+checking for pthread_getattr_np... yes
+checking for pthread_attr_get_np... no
+checking for pthread_attr_getstack... yes
+checking for pthread_get_stackaddr_np... no
+checking for pthread_get_stacksize_np... no
+checking for thr_stksegment... no
+checking for pthread_stackseg_np... no
+checking for pthread_getthrds_np... no
+checking for pthread_cond_init... yes
+checking for pthread_condattr_setclock... yes
+checking for pthread_condattr_init... yes
+checking for pthread_sigmask... yes
+checking for pthread_setname_np... yes
+checking for pthread_attr_init... yes
+checking arguments of pthread_setname_np... (pthread_self(), name)
+checking if mcontext_t is a pointer... no
+checking for getcontext... yes
+checking for setcontext... yes
+checking if fork works with pthread... yes
+checking whether ELF binaries are produced... yes
+checking elf.h usability... yes
+checking elf.h presence... yes
+checking for elf.h... yes
+checking elf_abi.h usability... no
+checking elf_abi.h presence... no
+checking for elf_abi.h... no
+checking whether OS depend dynamic link works... yes
+checking whether -Wl,-R. is accepted as LDFLAGS... yes
+checking for backtrace... yes
+checking for broken backtrace... no
+checking valgrind/memcheck.h usability... no
+checking valgrind/memcheck.h presence... no
+checking for valgrind/memcheck.h... no
+checking for strip... strip
+checking whether -fPIE is accepted as CFLAGS... yes
+checking whether -pie is accepted as LDFLAGS... yes
+checking for __builtin_setjmp... yes with cast ()
+checking for setjmp type... __builtin_setjmp
+checking for prefix of external symbols... NONE
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking if make is GNU make... yes
+checking for broken memmem... no
+checking for nroff... /usr/bin/nroff
+.ext/include/x86_64-linux/ruby/config.h updated
+ruby library version = 2.2.0
+configure: creating ./config.status
+config.status: creating GNUmakefile
+config.status: creating Makefile
+config.status: creating ruby-2.2.pc
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -std=iso9899:1999 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT -fPIE
+	CPPFLAGS = -I/home/bladefidz/.rbenv/versions/2.2.3/include    -I. -I.ext/include/x86_64-linux -I./include -I.
+	DLDFLAGS = -fstack-protector -pie  
+	SOLIBS = -lgmp 
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=hsa:nvptx-none
+compiling main.c
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,ada,go --enable-offload-targets=hsa,nvptx-none=/usr/nvptx-none, --without-cuda-driver --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/7 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --enable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-7 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux
+Thread model: posix
+gcc version 7.3.1 20180323 [gcc-7-branch revision 258812] (SUSE Linux) 
+compiling dmydln.c
+compiling miniinit.c
+compiling miniprelude.c
+copying dummy probes.h
+compiling bignum.c
+compiling class.c
+compiling compar.c
+compiling complex.c
+compiling dir.c
+compiling dln_find.c
+compiling encoding.c
+encoding.c: In function ‘rb_enc_get_index’:
+encoding.c:771:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if (NIL_P(obj)) break;
+     ^
+encoding.c:772:7: note: here
+       case T_DATA:
+       ^~~~
+encoding.c: In function ‘enc_capable’:
+encoding.c:731:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if (is_data_encoding(obj)) return TRUE;
+     ^
+encoding.c:732:7: note: here
+       default:
+       ^~~~~~~
+compiling enum.c
+compiling enumerator.c
+compiling error.c
+compiling eval.c
+compiling load.c
+compiling proc.c
+load.c: In function ‘search_required’:
+load.c:916:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if (ft) {
+     ^
+load.c:921:7: note: here
+       case 1:
+       ^~~~
+compiling file.c
+file.c: In function ‘rb_stat_dev_major’:
+file.c:510:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+     return INT2NUM(major(get_stat(self)->st_dev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                  
+file.c: In function ‘rb_stat_dev_minor’:
+file.c:531:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+     return INT2NUM(minor(get_stat(self)->st_dev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                  
+file.c: In function ‘rb_stat_rdev_major’:
+file.c:663:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+     return DEVT2NUM(major(get_stat(self)->st_rdev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                
+file.c: In function ‘rb_stat_rdev_minor’:
+file.c:684:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+     return DEVT2NUM(minor(get_stat(self)->st_rdev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                
+compiling gc.c
+compiling hash.c
+hash.c: In function ‘rb_hash_s_create’:
+hash.c:618:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       val = RARRAY_AREF(v, 1);
+hash.c:619:5: note: here
+     case 1:
+     ^~~~
+gc.c: In function ‘internal_object_p’:
+gc.c:2195:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      if (FL_TEST(p, FL_SINGLETON))
+         ^
+gc.c:2197:4: note: here
+    default:
+    ^~~~~~~
+compiling inits.c
+compiling io.c
+io.c: In function ‘rb_io_s_popen’:
+io.c:6253:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  pmode = argv[1];
+  ~~~~~~^~~~~~~~~
+io.c:6254:7: note: here
+       case 1:
+       ^~~~
+compiling marshal.c
+marshal.c: In function ‘r_object0’:
+marshal.c:1730:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if (bs & 1) --dst;
+       ^
+marshal.c:1731:9: note: here
+         default: bs = 0; break;
+         ^~~~~~~
+marshal.c: In function ‘load_mantissa’:
+marshal.c:344:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+        default: m = *buf++ & 0xff;
+                 ~~^~~~~~~~~~~~~~~
+marshal.c:346:8: note: here
+        case 3: m = (m << 8) | (*buf++ & 0xff);
+        ^~~~
+marshal.c:346:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+        case 3: m = (m << 8) | (*buf++ & 0xff);
+                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+marshal.c:349:8: note: here
+        case 2: m = (m << 8) | (*buf++ & 0xff);
+        ^~~~
+marshal.c:349:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+        case 2: m = (m << 8) | (*buf++ & 0xff);
+                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+marshal.c:352:8: note: here
+        case 1: m = (m << 8) | (*buf++ & 0xff);
+        ^~~~
+compiling math.c
+compiling node.c
+compiling numeric.c
+compiling object.c
+object.c: In function ‘rb_f_integer’:
+object.c:2795:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  base = NUM2INT(argv[1]);
+object.c:2796:7: note: here
+       case 1:
+       ^~~~
+compiling pack.c
+compiling parse.c
+parse.y: In function ‘ruby_yyparse’:
+parse.y:3974:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+        node = NEW_NODE(NODE_DSTR, STR_NEW0(), 1, NEW_LIST(node));
+parse.y:3975:6: note: here
+      case NODE_DSTR:
+      ^~~~
+parse.y:319:22: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ #define yyerror(msg) parser_yyerror(parser, (msg))
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+parse.y:5010:5: note: in expansion of macro ‘yyerror’
+     yyerror("can't define singleton method for literals");
+     ^~~~~~~
+parse.y:5011:10: note: here
+          default:
+          ^~~~~~~
+parse.y: In function ‘parser_yylex’:
+parse.y:7979:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if ((c = nextc()) != '.') {
+      ^
+parse.y:7988:8: note: here
+        default:
+        ^~~~~~~
+parse.y:7990:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   lex_nextline = lex_lastline;
+parse.y:7991:8: note: here
+        case -1:  /* EOF no decrement*/
+        ^~~~
+parse.y:8336:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  paren_nest--;
+parse.y:8337:7: note: here
+       case '}':
+       ^~~~
+parse.y: In function ‘parser_here_document’:
+parse.y:6709:23: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       if (--pend == p || pend[-1] != '\r') {
+           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+parse.y:6713:5: note: here
+     case '\r':
+     ^~~~
+parse.y: In function ‘parser_read_escape’:
+parse.y:6015:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ((c = nextc()) != '-') {
+     ^
+parse.y:6019:7: note: here
+       case 'c':
+       ^~~~
+parse.y: In function ‘parse_gvar’:
+parse.y:7712:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if (!parser_is_identchar()) {
+      ^
+parse.y:7717:7: note: here
+       case '0':
+       ^~~~
+parse.y: In function ‘is_static_content’:
+parse.y:9493:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if (!(node = node->nd_head)) break;
+     ^
+parse.y:9494:7: note: here
+       case NODE_ARRAY:
+       ^~~~
+compiling process.c
+compiling random.c
+In file included from random.c:1245:0:
+siphash.c: In function ‘ruby_sip_hash24’:
+siphash.c:430:26: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ #define OR_BYTE(n) (last |= ((uint64_t) end[n]) << ((n) * 8))
+                    ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+siphash.c:444:6: note: in expansion of macro ‘OR_BYTE’
+      OR_BYTE(6);
+      ^~~~~~~
+siphash.c:445:2: note: here
+  case 6:
+  ^~~~
+siphash.c:430:26: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ #define OR_BYTE(n) (last |= ((uint64_t) end[n]) << ((n) * 8))
+                    ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+siphash.c:446:6: note: in expansion of macro ‘OR_BYTE’
+      OR_BYTE(5);
+      ^~~~~~~
+siphash.c:447:2: note: here
+  case 5:
+  ^~~~
+siphash.c:430:26: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ #define OR_BYTE(n) (last |= ((uint64_t) end[n]) << ((n) * 8))
+                    ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+siphash.c:448:6: note: in expansion of macro ‘OR_BYTE’
+      OR_BYTE(4);
+      ^~~~~~~
+siphash.c:449:2: note: here
+  case 4:
+  ^~~~
+siphash.c:430:26: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ #define OR_BYTE(n) (last |= ((uint64_t) end[n]) << ((n) * 8))
+                    ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+siphash.c:461:6: note: in expansion of macro ‘OR_BYTE’
+      OR_BYTE(2);
+      ^~~~~~~
+siphash.c:462:2: note: here
+  case 2:
+  ^~~~
+siphash.c:430:26: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ #define OR_BYTE(n) (last |= ((uint64_t) end[n]) << ((n) * 8))
+                    ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+siphash.c:463:6: note: in expansion of macro ‘OR_BYTE’
+      OR_BYTE(1);
+      ^~~~~~~
+siphash.c:464:2: note: here
+  case 1:
+  ^~~~
+random.c: In function ‘rand_range’:
+random.c:1036:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       case T_FLOAT: {
+                     ^
+random.c:1042:7: note: here
+       default:
+       ^~~~~~~
+random.c: In function ‘random_load’:
+random.c:632:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  seed = ary[2];
+  ~~~~~^~~~~~~~
+random.c:633:7: note: here
+       case 2:
+       ^~~~
+random.c:634:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  left = ary[1];
+  ~~~~~^~~~~~~~
+random.c:635:7: note: here
+       case 1:
+       ^~~~
+compiling range.c
+compiling rational.c
+compiling re.c
+re.c: In function ‘unescape_nonascii’:
+re.c:2315:17: warning: this statement may fall through [-Wimplicit-fallthrough=]
+                 {
+                 ^
+re.c:2326:15: note: here
+               case '0': /* \0, \0O, \0OO */
+               ^~~~
+re.c: In function ‘read_escaped_byte’:
+re.c:2088:22: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (p == end || *p++ != '-') {
+             ~~~~~~~~~^~~~~~~~~~~~~~
+re.c:2092:7: note: here
+       case 'c': /* \cX, \c\M-X */
+       ^~~~
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+regparse.c: In function ‘parse_enclose’:
+regparse.c:5183:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       if (IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_OPTION_PERL)) {
+          ^
+regparse.c:5211:5: note: here
+     case '-': case 'i': case 'm': case 's': case 'x':
+     ^~~~
+compiling regsyntax.c
+compiling ruby.c
+ruby.c: In function ‘proc_options’:
+ruby.c:776:20: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      opt->do_print = TRUE;
+ruby.c:778:4: note: here
+    case 'n':
+    ^~~~
+ruby.c:802:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      opt->verbose = 1;
+      ~~~~~~~~~~~~~^~~
+ruby.c:803:4: note: here
+    case 'w':
+    ^~~~
+ruby.c:1109:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      if (!s[1])
+         ^
+ruby.c:1112:4: note: here
+    default:
+    ^~~~~~~
+compiling safe.c
+compiling signal.c
+compiling sprintf.c
+sprintf.c: In function ‘rb_str_format’:
+sprintf.c:653:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      p--;
+      ~^~
+sprintf.c:654:4: note: here
+    case '%':
+    ^~~~
+In file included from sprintf.c:1255:0:
+vsnprintf.c: In function ‘BSD_vfprintf’:
+vsnprintf.c:880:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if (prec != 0)
+       ^
+vsnprintf.c:882:3: note: here
+   case 'g':
+   ^~~~
+compiling st.c
+st.c: In function ‘st_hash’:
+st.c:1597:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  t |= data_at(n) << CHAR_BIT*(n)
+  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+st.c:1499:25: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                         ^~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1596:27: note: here
+ # define UNALIGNED_ADD(n) case (n) + 1: \
+                           ^
+st.c:1499:43: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                           ^~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1597:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  t |= data_at(n) << CHAR_BIT*(n)
+  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+st.c:1499:43: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                           ^~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1596:27: note: here
+ # define UNALIGNED_ADD(n) case (n) + 1: \
+                           ^
+st.c:1499:61: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                             ^~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1597:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  t |= data_at(n) << CHAR_BIT*(n)
+  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+st.c:1499:61: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                             ^~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1596:27: note: here
+ # define UNALIGNED_ADD(n) case (n) + 1: \
+                           ^
+st.c:1499:79: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                                               ^~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1597:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  t |= data_at(n) << CHAR_BIT*(n)
+  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+st.c:1499:79: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                                               ^~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1596:27: note: here
+ # define UNALIGNED_ADD(n) case (n) + 1: \
+                           ^
+st.c:1497:25: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_4 UNALIGNED_ADD(2); UNALIGNED_ADD(1); UNALIGNED_ADD(0)
+                         ^~~~~~~~~~~~~
+st.c:1499:97: note: in expansion of macro ‘UNALIGNED_ADD_4’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                                                                 ^~~~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1597:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  t |= data_at(n) << CHAR_BIT*(n)
+  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+st.c:1497:25: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_4 UNALIGNED_ADD(2); UNALIGNED_ADD(1); UNALIGNED_ADD(0)
+                         ^~~~~~~~~~~~~
+st.c:1499:97: note: in expansion of macro ‘UNALIGNED_ADD_4’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                                                                 ^~~~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1596:27: note: here
+ # define UNALIGNED_ADD(n) case (n) + 1: \
+                           ^
+st.c:1497:43: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_4 UNALIGNED_ADD(2); UNALIGNED_ADD(1); UNALIGNED_ADD(0)
+                                           ^~~~~~~~~~~~~
+st.c:1499:97: note: in expansion of macro ‘UNALIGNED_ADD_4’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                                                                 ^~~~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1597:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  t |= data_at(n) << CHAR_BIT*(n)
+  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+st.c:1497:43: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_4 UNALIGNED_ADD(2); UNALIGNED_ADD(1); UNALIGNED_ADD(0)
+                                           ^~~~~~~~~~~~~
+st.c:1499:97: note: in expansion of macro ‘UNALIGNED_ADD_4’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                                                                 ^~~~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+st.c:1596:27: note: here
+ # define UNALIGNED_ADD(n) case (n) + 1: \
+                           ^
+st.c:1497:61: note: in expansion of macro ‘UNALIGNED_ADD’
+ #define UNALIGNED_ADD_4 UNALIGNED_ADD(2); UNALIGNED_ADD(1); UNALIGNED_ADD(0)
+                                                             ^~~~~~~~~~~~~
+st.c:1499:97: note: in expansion of macro ‘UNALIGNED_ADD_4’
+ #define UNALIGNED_ADD_8 UNALIGNED_ADD(6); UNALIGNED_ADD(5); UNALIGNED_ADD(4); UNALIGNED_ADD(3); UNALIGNED_ADD_4
+                                                                                                 ^~~~~~~~~~~~~~~
+st.c:1505:27: note: in expansion of macro ‘UNALIGNED_ADD_8’
+ #define UNALIGNED_ADD_ALL UNALIGNED_ADD_8
+                           ^~~~~~~~~~~~~~~
+st.c:1599:2: note: in expansion of macro ‘UNALIGNED_ADD_ALL’
+  UNALIGNED_ADD_ALL;
+  ^~~~~~~~~~~~~~~~~
+compiling strftime.c
+strftime.c: In function ‘rb_strftime_with_timespec’:
+strftime.c:780:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    padding = '0';
+    ~~~~~~~~^~~~~
+strftime.c:781:3: note: here
+   case '1':  case '2': case '3': case '4':
+   ^~~~
+compiling string.c
+compiling struct.c
+compiling symbol.c
+compiling time.c
+time.c: In function ‘utc_offset_arg’:
+time.c:2080:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      n += (s[7] * 10 + s[8] - '0' * 11);
+      ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+time.c:2081:4: note: here
+    case 6:
+    ^~~~
+compiling transcode.c
+compiling util.c
+util.c: In function ‘ruby_strtod’:
+util.c:1979:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             sign = 1;
+             ~~~~~^~~
+util.c:1981:11: note: here
+           case '+':
+           ^~~~
+util.c:2143:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             esign = 1;
+             ~~~~~~^~~
+util.c:2144:11: note: here
+           case '+':
+           ^~~~
+util.c: In function ‘ruby_dtoa’:
+util.c:3318:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         leftright = 0;
+         ~~~~~~~~~~^~~
+util.c:3320:7: note: here
+       case 4:
+       ^~~~
+util.c:3326:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         leftright = 0;
+         ~~~~~~~~~~^~~
+util.c:3328:7: note: here
+       case 5:
+       ^~~~
+compiling variable.c
+compiling version.c
+compiling compile.c
+compiling debug.c
+string.c: In function ‘rb_str_chars’:
+string.c:6879:3: warning: ‘ary’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   rb_ary_push(ary, substr);
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from string.c:14:0:
+string.c:6837:29: note: ‘ary’ was declared here
+     VALUE UNINITIALIZED_VAR(ary);
+                             ^
+internal.h:40:30: note: in definition of macro ‘UNINITIALIZED_VAR’
+ #define UNINITIALIZED_VAR(x) x __attribute__((unused))
+                              ^
+compile.c: In function ‘iseq_compile_each’:
+compile.c:4110:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      boff = 1;
+      ~~~~~^~~
+compile.c:4111:4: note: here
+    default:
+    ^~~~~~~
+compile.c:4546:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      flag |= VM_CALL_VCALL;
+compile.c:4548:4: note: here
+    case NODE_FCALL:
+    ^~~~
+compile.c:4425:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if (node->nd_mid == idAREF && !private_recv_p(node) && node->nd_args &&
+     ^
+compile.c:4440:7: note: here
+       case NODE_FCALL:
+       ^~~~
+compile.c: In function ‘defined_expr0’:
+compile.c:2907:23: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       case NODE_ARRAY:{
+                       ^
+compile.c:2919:7: note: here
+       case NODE_STR:
+       ^~~~
+compiling iseq.c
+iseq.c: In function ‘rb_insn_operand_intern’:
+iseq.c:1182:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  op = ID2SYM(op);
+iseq.c:1184:7: note: here
+       case TS_VALUE:  /* VALUE */
+       ^~~~
+compiling vm.c
+In file included from vm_exec.c:120:0,
+                 from vm.c:99:
+insns.def: In function ‘vm_exec_core’:
+insns.def:1300:21: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       case T_FLOAT: {
+                     ^
+insns.def:1306:7: note: here
+       case T_SYMBOL: /* fall through */
+       ^~~~
+In file included from vm.c:97:0:
+vm_insnhelper.c: In function ‘vm_search_super_method’:
+vm_insnhelper.c:1954:2: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  vm_super_outside();
+  ^~~~~~~~~~~~~~~~~~
+vm_insnhelper.c:1955:7: note: here
+       case -2:
+       ^~~~
+compiling vm_dump.c
+compiling vm_backtrace.c
+compiling vm_trace.c
+compiling thread.c
+compiling cont.c
+compiling ./enc/ascii.c
+compiling ./enc/us_ascii.c
+compiling ./enc/unicode.c
+compiling ./enc/utf_8.c
+compiling newline.c
+compiling ./missing/setproctitle.c
+compiling ./missing/strlcat.c
+compiling ./missing/strlcpy.c
+compiling addr2line.c
+addr2line.c: In function ‘kvprintf’:
+addr2line.c:960:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if (!dot) {
+       ^
+addr2line.c:964:3: note: here
+   case '1': case '2': case '3': case '4':
+   ^~~~
+addr2line.c:1100:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    upper = 1;
+    ~~~~~~^~~
+addr2line.c:1101:3: note: here
+   case 'x':
+   ^~~~
+thread.c: In function ‘rb_thread_fd_select’:
+thread.c:3423:34: warning: ‘orig_read.maxfd’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     rb_fdset_t UNINITIALIZED_VAR(orig_read);
+                                  ^~~~~~~~~
+In file included from method.h:14:0,
+                 from vm_core.h:24,
+                 from eval_intern.h:5,
+                 from thread.c:60:
+thread.c:3423:34: note: ‘orig_read.maxfd’ was declared here
+     rb_fdset_t UNINITIALIZED_VAR(orig_read);
+                                  ^
+internal.h:40:30: note: in definition of macro ‘UNINITIALIZED_VAR’
+ #define UNINITIALIZED_VAR(x) x __attribute__((unused))
+                              ^
+thread.c:3424:34: warning: ‘orig_write.maxfd’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     rb_fdset_t UNINITIALIZED_VAR(orig_write);
+                                  ^~~~~~~~~~
+In file included from method.h:14:0,
+                 from vm_core.h:24,
+                 from eval_intern.h:5,
+                 from thread.c:60:
+thread.c:3424:34: note: ‘orig_write.maxfd’ was declared here
+     rb_fdset_t UNINITIALIZED_VAR(orig_write);
+                                  ^
+internal.h:40:30: note: in definition of macro ‘UNINITIALIZED_VAR’
+ #define UNINITIALIZED_VAR(x) x __attribute__((unused))
+                              ^
+thread.c:3425:34: warning: ‘orig_except.maxfd’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     rb_fdset_t UNINITIALIZED_VAR(orig_except);
+                                  ^~~~~~~~~~~
+In file included from method.h:14:0,
+                 from vm_core.h:24,
+                 from eval_intern.h:5,
+                 from thread.c:60:
+thread.c:3425:34: note: ‘orig_except.maxfd’ was declared here
+     rb_fdset_t UNINITIALIZED_VAR(orig_except);
+                                  ^
+internal.h:40:30: note: in definition of macro ‘UNINITIALIZED_VAR’
+ #define UNINITIALIZED_VAR(x) x __attribute__((unused))
+                              ^
+In file included from ./include/ruby/ruby.h:29:0,
+                 from eval_intern.h:4,
+                 from thread.c:60:
+./include/ruby/defines.h:113:15: warning: ‘orig_except.fdset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define xfree ruby_xfree
+               ^~~~~~~~~~
+In file included from method.h:14:0,
+                 from vm_core.h:24,
+                 from eval_intern.h:5,
+                 from thread.c:60:
+thread.c:3425:34: note: ‘orig_except.fdset’ was declared here
+     rb_fdset_t UNINITIALIZED_VAR(orig_except);
+                                  ^
+internal.h:40:30: note: in definition of macro ‘UNINITIALIZED_VAR’
+ #define UNINITIALIZED_VAR(x) x __attribute__((unused))
+                              ^
+In file included from ./include/ruby/ruby.h:29:0,
+                 from eval_intern.h:4,
+                 from thread.c:60:
+./include/ruby/defines.h:113:15: warning: ‘orig_write.fdset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define xfree ruby_xfree
+               ^~~~~~~~~~
+In file included from method.h:14:0,
+                 from vm_core.h:24,
+                 from eval_intern.h:5,
+                 from thread.c:60:
+thread.c:3424:34: note: ‘orig_write.fdset’ was declared here
+     rb_fdset_t UNINITIALIZED_VAR(orig_write);
+                                  ^
+internal.h:40:30: note: in definition of macro ‘UNINITIALIZED_VAR’
+ #define UNINITIALIZED_VAR(x) x __attribute__((unused))
+                              ^
+In file included from ./include/ruby/ruby.h:29:0,
+                 from eval_intern.h:4,
+                 from thread.c:60:
+./include/ruby/defines.h:113:15: warning: ‘orig_read.fdset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define xfree ruby_xfree
+               ^~~~~~~~~~
+In file included from method.h:14:0,
+                 from vm_core.h:24,
+                 from eval_intern.h:5,
+                 from thread.c:60:
+thread.c:3423:34: note: ‘orig_read.fdset’ was declared here
+     rb_fdset_t UNINITIALIZED_VAR(orig_read);
+                                  ^
+internal.h:40:30: note: in definition of macro ‘UNINITIALIZED_VAR’
+ #define UNINITIALIZED_VAR(x) x __attribute__((unused))
+                              ^
+compiling dmyext.c
+compiling dmyenc.c
+compiling dln.c
+compiling localeinit.c
+compiling prelude.c
+compiling array.c
+array.c: In function ‘rb_ary_rindex’:
+array.c:1530:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      if (!rb_equal(e, val)) break;
+         ^
+array.c:1531:4: note: here
+    case Qtrue:
+    ^~~~
+array.c: In function ‘rb_ary_index’:
+array.c:1467:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      if (!rb_equal(e, val)) break;
+         ^
+array.c:1468:4: note: here
+    case Qtrue:
+    ^~~~
+linking miniruby
+generating encdb.h
+rbconfig.rb updated
+generating enc.mk
+creating verconf.h
+encdb.h updated
+verconf.h updated
+compiling loadpath.c
+making srcs under enc
+make[1]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[1]: Nothing to be done for 'srcs'.
+make[1]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+generating transdb.h
+linking static-library libruby-static.a
+transdb.h updated
+verifying static-library libruby-static.a
+making enc
+making trans
+generating makefile exts.mk
+make[1]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[1]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+compiling ./enc/trans/transdb.c
+compiling ./enc/encdb.c
+compiling ./enc/big5.c
+configuring -test-/array/resize
+configuring -test-/bignum
+configuring -test-/bug-3571
+configuring -test-/bug-3662
+configuring -test-/bug-5832
+compiling ./enc/trans/big5.c
+configuring -test-/bug_reporter
+configuring -test-/class
+configuring -test-/debug
+configuring -test-/exception
+configuring -test-/fatal
+configuring -test-/file
+compiling ./enc/cp949.c
+compiling ./enc/emacs_mule.c
+compiling ./enc/euc_jp.c
+compiling ./enc/euc_kr.c
+compiling ./enc/euc_tw.c
+compiling ./enc/gb2312.c
+compiling ./enc/gb18030.c
+compiling ./enc/gbk.c
+compiling ./enc/iso_8859_1.c
+compiling ./enc/iso_8859_2.c
+compiling ./enc/iso_8859_3.c
+compiling ./enc/iso_8859_4.c
+configuring -test-/float
+configuring -test-/funcall
+configuring -test-/hash
+compiling ./enc/iso_8859_5.c
+configuring -test-/iseq_load
+compiling ./enc/trans/chinese.c
+configuring -test-/iter
+configuring -test-/load/dot.dot
+configuring -test-/marshal/compat
+configuring -test-/marshal/usr
+configuring -test-/method
+configuring -test-/num2int
+configuring -test-/path_to_class
+configuring -test-/postponed_job
+configuring -test-/printf
+configuring -test-/proc
+configuring -test-/rational
+configuring -test-/recursion
+configuring -test-/st/foreach
+configuring -test-/st/numhash
+configuring -test-/st/update
+configuring -test-/string
+configuring -test-/struct
+configuring -test-/symbol
+compiling ./enc/iso_8859_6.c
+compiling ./enc/iso_8859_7.c
+compiling ./enc/iso_8859_8.c
+compiling ./enc/iso_8859_9.c
+configuring -test-/tracepoint
+configuring -test-/typeddata
+configuring -test-/wait_for_single_fd
+configuring -test-/win32/console
+Failed to configure -test-/win32/console. It will not be installed.
+configuring -test-/win32/dln
+Failed to configure -test-/win32/dln. It will not be installed.
+Failed to configure -test-/win32/dln/empty. It will not be installed.
+configuring -test-/win32/fd_setsize
+Failed to configure -test-/win32/fd_setsize. It will not be installed.
+configuring bigdecimal
+compiling ./enc/iso_8859_10.c
+compiling ./enc/iso_8859_11.c
+compiling ./enc/trans/emoji.c
+configuring continuation
+configuring coverage
+configuring date
+configuring dbm
+compiling ./enc/iso_8859_13.c
+compiling ./enc/iso_8859_14.c
+compiling ./enc/trans/emoji_iso2022_kddi.c
+compiling ./enc/iso_8859_15.c
+compiling ./enc/iso_8859_16.c
+compiling ./enc/koi8_r.c
+compiling ./enc/koi8_u.c
+compiling ./enc/shift_jis.c
+compiling ./enc/trans/emoji_sjis_docomo.c
+compiling ./enc/utf_16be.c
+compiling ./enc/trans/emoji_sjis_kddi.c
+compiling ./enc/utf_16le.c
+compiling ./enc/utf_32be.c
+compiling ./enc/utf_32le.c
+compiling ./enc/trans/emoji_sjis_softbank.c
+compiling ./enc/windows_31j.c
+compiling ./enc/trans/escape.c
+compiling ./enc/trans/gb18030.c
+compiling ./enc/windows_1251.c
+linking encoding encdb.so
+linking encoding big5.so
+linking encoding cp949.so
+linking encoding emacs_mule.so
+linking encoding euc_jp.so
+compiling ./enc/trans/gbk.c
+linking encoding euc_kr.so
+linking encoding euc_tw.so
+linking encoding gb2312.so
+linking encoding gb18030.so
+linking encoding gbk.so
+linking encoding iso_8859_1.so
+linking encoding iso_8859_2.so
+compiling ./enc/trans/iso2022.c
+linking encoding iso_8859_3.so
+header: db.h
+library: db
+linking encoding iso_8859_4.so
+linking encoding iso_8859_5.so
+linking encoding iso_8859_6.so
+linking encoding iso_8859_7.so
+compiling ./enc/trans/japanese.c
+linking encoding iso_8859_8.so
+linking encoding iso_8859_9.so
+linking encoding iso_8859_10.so
+compiling ./enc/trans/japanese_euc.c
+linking encoding iso_8859_11.so
+linking encoding iso_8859_13.so
+linking encoding iso_8859_14.so
+linking encoding iso_8859_15.so
+compiling ./enc/trans/japanese_sjis.c
+linking encoding iso_8859_16.so
+linking encoding koi8_r.so
+linking encoding koi8_u.so
+linking encoding shift_jis.so
+linking encoding utf_16be.so
+configuring digest
+configuring digest/bubblebabble
+configuring digest/md5
+linking encoding utf_16le.so
+linking encoding utf_32be.so
+linking encoding utf_32le.so
+linking encoding windows_31j.so
+linking encoding windows_1251.so
+make[1]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+compiling ./enc/trans/korean.c
+compiling ./enc/trans/single_byte.c
+compiling ./enc/trans/utf8_mac.c
+configuring digest/rmd160
+compiling ./enc/trans/utf_16_32.c
+linking transcoder transdb.so
+linking transcoder big5.so
+linking transcoder chinese.so
+linking transcoder emoji.so
+linking transcoder emoji_iso2022_kddi.so
+linking transcoder emoji_sjis_docomo.so
+linking transcoder emoji_sjis_kddi.so
+linking transcoder emoji_sjis_softbank.so
+linking transcoder escape.so
+configuring digest/sha1
+linking transcoder gb18030.so
+linking transcoder gbk.so
+linking transcoder iso2022.so
+linking transcoder japanese.so
+linking transcoder japanese_euc.so
+linking transcoder japanese_sjis.so
+linking transcoder korean.so
+linking transcoder single_byte.so
+linking transcoder utf8_mac.so
+linking transcoder utf_16_32.so
+make[1]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+making encs
+make[1]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[1]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+configuring digest/sha2
+configuring etc
+configuring fcntl
+configuring fiber
+configuring fiddle
+configuring gdbm
+configuring io/console
+configuring io/nonblock
+configuring io/wait
+configuring json
+configuring json/generator
+configuring json/parser
+configuring mathn/complex
+configuring mathn/rational
+configuring nkf
+configuring objspace
+configuring openssl
+configuring pathname
+configuring psych
+configuring pty
+configuring racc/cparse
+configuring rbconfig/sizeof
+configuring readline
+configuring ripper
+configuring sdbm
+configuring socket
+configuring stringio
+configuring strscan
+configuring syslog
+configuring thread
+configuring tk
+...........
+check struct members..
+check libraries....
+Use ActiveTcl libraries (if available).
+Search tclConfig.sh and tkConfig.sh...............................
+Valid [tclConfig.sh, tkConfig.sh] are found in [["/usr/lib64", "/usr/lib64"]]
+Use [tclConfig.sh, tkConfig.sh] == ["/usr/lib64/tclConfig.sh", "/usr/lib64/tkConfig.sh"]
+Use X11 libraries (or use TK_XINCLUDES/TK_XLIBSW information on tkConfig.sh).
+
+Find Tcl/Tk libraries. Make tcltklib.so which is required by Ruby/Tk.
+configuring tk/tkutil
+configuring win32
+Failed to configure win32. It will not be installed.
+configuring win32ole
+Failed to configure win32ole. It will not be installed.
+configuring zlib
+make[1]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling resize.c
+compiling bug.c
+compiling str2big.c
+compiling bug.c
+compiling mul.c
+compiling big2str.c
+compiling bigzero.c
+linking shared-object -test-/array/resize.so
+linking shared-object -test-/bug-3571/bug.so
+linking shared-object -test-/bug-3662/bug.so
+compiling intpack.c
+compiling div.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/bug-3571'
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/array/resize'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling bug.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling bug_reporter.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/bug-3662'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling init.c
+compiling class2name.c
+linking shared-object -test-/bug-5832/bug.so
+linking shared-object -test-/bug_reporter/bug_reporter.so
+linking shared-object -test-/class.so
+linking shared-object -test-/bignum.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/bug-5832'
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/bug_reporter'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/class'
+compiling profile_frames.c
+compiling dataerror.c
+compiling inspector.c
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling init.c
+compiling ensured.c
+compiling rb_fatal.c
+compiling init.c
+compiling enc_raise.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/bignum'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling stat.c
+compiling fs.c
+compiling init.c
+linking shared-object -test-/fatal/rb_fatal.so
+linking shared-object -test-/debug.so
+linking shared-object -test-/exception.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/fatal'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling nextafter.c
+compiling init.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/exception'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+linking shared-object -test-/file.so
+compiling passing_block.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/debug'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling delete.c
+compiling init.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/file'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling iseq_load.c
+linking shared-object -test-/float.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/float'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling yield.c
+compiling init.c
+compiling break.c
+linking shared-object -test-/funcall/funcall.so
+linking shared-object -test-/iseq_load/iseq_load.so
+linking shared-object -test-/hash.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/funcall'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling dot.dot.c
+linking shared-object -test-/iter.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/hash'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling usrcompat.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/iseq_load'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling usrmarshal.c
+linking shared-object -test-/load/dot.dot/dot.dot.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/iter'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/load/dot.dot'
+compiling arity.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling num2int.c
+linking shared-object -test-/marshal/compat.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/marshal/compat'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling path_to_class.c
+linking shared-object -test-/marshal/usr.so
+linking shared-object -test-/method.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/marshal/usr'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling postponed_job.c
+linking shared-object -test-/num2int/num2int.so
+linking shared-object -test-/path_to_class/path_to_class.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/method'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling printf.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/path_to_class'
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/num2int'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling receiver.c
+compiling rat.c
+compiling super.c
+compiling init.c
+linking shared-object -test-/postponed_job.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/postponed_job'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling recursion.c
+linking shared-object -test-/printf.so
+linking shared-object -test-/proc.so
+linking shared-object -test-/rational.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/printf'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling foreach.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/proc'
+linking shared-object -test-/recursion.so
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling numhash.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/rational'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling update.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/recursion'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling cstr.c
+compiling ellipsize.c
+compiling enc_associate.c
+compiling set_len.c
+linking shared-object -test-/st/numhash.so
+linking shared-object -test-/st/foreach.so
+linking shared-object -test-/st/update.so
+compiling nofree.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/st/numhash'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling member.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/st/foreach'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling type.c
+compiling init.c
+compiling init.c
+compiling coderange.c
+compiling qsort.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/st/update'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling tracepoint.c
+compiling gc_hook.c
+compiling modify.c
+linking shared-object -test-/struct.so
+compiling normalize.c
+linking shared-object -test-/symbol.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/struct'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling typeddata.c
+compiling init.c
+compiling enc_str_buf_cat.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/symbol'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling wait_for_single_fd.c
+linking shared-object -test-/tracepoint.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/tracepoint'
+linking shared-object -test-/typeddata/typeddata.so
+linking shared-object -test-/string/string.so
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/win32/console'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/win32/dln'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/win32/dln/empty'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/win32/fd_setsize'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling bigdecimal.c
+installing default bigdecimal libraries
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/typeddata'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling continuation.c
+linking shared-object -test-/wait_for_single_fd/wait_for_single_fd.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/string'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling coverage.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/-test-/wait_for_single_fd'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling date_strftime.c
+compiling date_strptime.c
+compiling date_parse.c
+compiling date_core.c
+date_strftime.c: In function ‘date_strftime_with_tmx’:
+date_strftime.c:573:14: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      padding = '0';
+      ~~~~~~~~^~~~~
+date_strftime.c:574:4: note: here
+    case '1':  case '2': case '3': case '4':
+    ^~~~
+linking shared-object continuation.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/continuation'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling dbm.c
+linking shared-object coverage.so
+date_core.c: In function ‘datetime_s_jisx0301’:
+date_core.c:8110:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01T00:00:00+00:00");
+date_core.c:8111:7: note: here
+       case 1:
+       ^~~~
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/coverage'
+date_core.c: In function ‘datetime_s_httpdate’:
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+date_core.c:8080:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("Mon, 01 Jan -4712 00:00:00 GMT");
+date_core.c:8081:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_rfc2822’:
+date_core.c:8050:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("Mon, 1 Jan -4712 00:00:00 +0000");
+date_core.c:8051:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_xmlschema’:
+date_core.c:8019:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01T00:00:00+00:00");
+date_core.c:8020:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_rfc3339’:
+date_core.c:7989:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01T00:00:00+00:00");
+date_core.c:7990:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_iso8601’:
+date_core.c:7959:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01T00:00:00+00:00");
+date_core.c:7960:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_parse’:
+date_core.c:7919:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01T00:00:00+00:00");
+date_core.c:7920:7: note: here
+       case 1:
+       ^~~~
+date_core.c:7921:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  comp = Qtrue;
+date_core.c:7922:7: note: here
+       case 2:
+       ^~~~
+date_core.c: In function ‘datetime_s_strptime’:
+date_core.c:7876:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01T00:00:00+00:00");
+date_core.c:7877:7: note: here
+       case 1:
+       ^~~~
+date_core.c:7878:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  fmt = rb_str_new2("%FT%T%z");
+date_core.c:7879:7: note: here
+       case 2:
+       ^~~~
+compiling digest.c
+date_core.c: In function ‘datetime_s_commercial’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:7439:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:7440:7: note: here
+       case 7:
+       ^~~~
+date_core.c:4689:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!offset_to_sec(vof, &iof)) {\
+        ^
+date_core.c:7441:2: note: in expansion of macro ‘val2off’
+  val2off(vof, rof);
+  ^~~~~~~
+date_core.c:7442:7: note: here
+       case 6:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7443:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(s, positive_inf);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7444:7: note: here
+       case 5:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7445:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(min, 5);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7446:7: note: here
+       case 4:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7447:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(h, 4);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7448:7: note: here
+       case 3:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7449:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(d, 3);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7450:7: note: here
+       case 2:
+       ^~~~
+date_core.c:7451:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  w = NUM2INT(vw);
+date_core.c:7452:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_civil’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:7342:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:7343:7: note: here
+       case 7:
+       ^~~~
+date_core.c:4689:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!offset_to_sec(vof, &iof)) {\
+        ^
+date_core.c:7344:2: note: in expansion of macro ‘val2off’
+  val2off(vof, rof);
+  ^~~~~~~
+date_core.c:7345:7: note: here
+       case 6:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7346:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(s, positive_inf);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7347:7: note: here
+       case 5:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7348:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(min, 5);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7349:7: note: here
+       case 4:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7350:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(h, 4);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7351:7: note: here
+       case 3:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7352:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(d, 3);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7353:7: note: here
+       case 2:
+       ^~~~
+date_core.c:7354:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  m = NUM2INT(vm);
+date_core.c:7355:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_ordinal’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:7265:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:7266:7: note: here
+       case 6:
+       ^~~~
+date_core.c:4689:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!offset_to_sec(vof, &iof)) {\
+        ^
+date_core.c:7267:2: note: in expansion of macro ‘val2off’
+  val2off(vof, rof);
+  ^~~~~~~
+installing digest libraries
+date_core.c:7268:7: note: here
+       case 5:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7269:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(s, positive_inf);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7270:7: note: here
+       case 4:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7271:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(min, 4);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7272:7: note: here
+       case 3:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7273:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(h, 3);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7274:7: note: here
+       case 2:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7275:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(d, 2);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7276:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘datetime_s_jd’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:7196:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:7197:7: note: here
+       case 5:
+       ^~~~
+date_core.c:4689:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!offset_to_sec(vof, &iof)) {\
+        ^
+date_core.c:7198:2: note: in expansion of macro ‘val2off’
+  val2off(vof, rof);
+  ^~~~~~~
+date_core.c:7199:7: note: here
+       case 4:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7200:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(s, positive_inf);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7201:7: note: here
+       case 3:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7202:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(min, 3);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7203:7: note: here
+       case 2:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:7204:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(h, 2);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:7205:7: note: here
+       case 1:
+       ^~~~
+installing default digest libraries
+date_core.c: In function ‘date_s_jisx0301’:
+date_core.c:4624:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01");
+date_core.c:4625:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_httpdate’:
+date_core.c:4583:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("Mon, 01 Jan -4712 00:00:00 GMT");
+date_core.c:4584:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_rfc2822’:
+date_core.c:4541:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("Mon, 1 Jan -4712 00:00:00 +0000");
+date_core.c:4542:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_xmlschema’:
+date_core.c:4497:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01");
+date_core.c:4498:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_rfc3339’:
+date_core.c:4456:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01T00:00:00+00:00");
+date_core.c:4457:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_iso8601’:
+date_core.c:4415:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01");
+date_core.c:4416:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_parse’:
+date_core.c:4359:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01");
+date_core.c:4360:7: note: here
+       case 1:
+       ^~~~
+date_core.c:4361:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  comp = Qtrue;
+date_core.c:4362:7: note: here
+       case 2:
+       ^~~~
+date_core.c: In function ‘date_s_strptime’:
+date_core.c:4268:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  str = rb_str_new2("-4712-01-01");
+date_core.c:4269:7: note: here
+       case 1:
+       ^~~~
+date_core.c:4270:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  fmt = rb_str_new2("%F");
+date_core.c:4271:7: note: here
+       case 2:
+       ^~~~
+date_core.c: In function ‘date_s_commercial’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:3474:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:3475:7: note: here
+       case 3:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:3476:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(d, positive_inf);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:3477:7: note: here
+       case 2:
+       ^~~~
+date_core.c:3478:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  w = NUM2INT(vw);
+date_core.c:3479:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_civil’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:3397:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:3398:7: note: here
+       case 3:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:3399:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(d, positive_inf);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:3400:7: note: here
+       case 2:
+       ^~~~
+date_core.c:3401:4: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  m = NUM2INT(vm);
+date_core.c:3402:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_ordinal’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:3328:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:3329:7: note: here
+       case 2:
+       ^~~~
+date_core.c:3217:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (f_nonzero_p(fr)) {\
+        ^
+date_core.c:3330:2: note: in expansion of macro ‘num2int_with_frac’
+  num2int_with_frac(d, positive_inf);
+  ^~~~~~~~~~~~~~~~~
+date_core.c:3331:7: note: here
+       case 1:
+       ^~~~
+date_core.c: In function ‘date_s_jd’:
+date_core.c:3241:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     if (!c_valid_start_p(dsg)) {\
+        ^
+date_core.c:3276:2: note: in expansion of macro ‘val2sg’
+  val2sg(vsg, sg);
+  ^~~~~~
+date_core.c:3277:7: note: here
+       case 1:
+       ^~~~
+installing default date_core libraries
+linking shared-object digest.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/digest'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling bubblebabble.c
+linking shared-object dbm.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/dbm'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling md5init.c
+compiling md5ossl.c
+linking shared-object digest/bubblebabble.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/digest/bubblebabble'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling rmd160ossl.c
+compiling rmd160init.c
+linking shared-object digest/md5.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/digest/md5'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+linking shared-object digest/rmd160.so
+compiling sha1init.c
+compiling sha1ossl.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/digest/rmd160'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling sha2init.c
+compiling sha2ossl.c
+installing default sha2 libraries
+linking shared-object digest/sha1.so
+linking shared-object digest/sha2.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/digest/sha1'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+generating constant definitions
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/digest/sha2'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling fcntl.c
+compiling etc.c
+linking shared-object fcntl.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/fcntl'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling fiber.c
+linking shared-object fiber.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/fiber'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling conversions.c
+compiling handle.c
+compiling closure.c
+compiling fiddle.c
+linking shared-object etc.so
+closure.c: In function ‘initialize’:
+closure.c:235:5: warning: ‘ffi_prep_closure’ is deprecated: use ffi_prep_closure_loc instead [-Wdeprecated-declarations]
+     result = ffi_prep_closure(pcl, cif, callback, (void *)self);
+     ^~~~~~
+In file included from ./fiddle.h:42:0,
+                 from closure.c:1:
+/usr/include/ffi.h:314:1: note: declared here
+ ffi_prep_closure (ffi_closure*,
+ ^~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/etc'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling gdbm.c
+compiling function.c
+compiling pointer.c
+installing default fiddle libraries
+linking shared-object fiddle.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/fiddle'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling console.c
+linking shared-object gdbm.so
+installing default console libraries
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/gdbm'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling nonblock.c
+linking shared-object io/nonblock.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/io/nonblock'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling wait.c
+linking shared-object io/console.so
+linking shared-object io/wait.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/io/console'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+installing default libraries
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/json'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/io/wait'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling generator.c
+compiling parser.c
+linking shared-object bigdecimal.so
+parser.c: In function ‘cParser_parse_quirks_mode’:
+parser.c:1960:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1962:1: note: here
+ case 1:
+ ^~~~
+parser.rl:795:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             begin_value >parse_value
+     ^
+parser.rl:797:1: note: here
+ }%%
+ ^~~ 
+parser.c:2007:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:2009:1: note: here
+ case 2:
+ ^~~~
+parser.c:2016:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:2018:1: note: here
+ case 3:
+ ^~~~
+parser.c:2023:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:2025:1: note: here
+ case 4:
+ ^~~~
+parser.c:2032:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:2034:1: note: here
+ case 5:
+ ^~~~
+parser.c:2039:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:2041:1: note: here
+ case 6:
+ ^~~~
+parser.c:2048:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:2050:1: note: here
+ case 7:
+ ^~~~
+parser.c:2055:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:2057:1: note: here
+ case 8:
+ ^~~~
+parser.c:2064:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/bigdecimal'
+parser.c:2066:1: note: here
+ case 9:
+ ^~~~
+parser.c: In function ‘JSON_parse_value’:
+parser.rl:227:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             *result = CNaN;
+     ^
+parser.rl:229:1: note: here
+             rb_enc_raise(EXC_ENCODING eParserError, "%u: unexpected token at '%s'", __LINE__, p - 2);
+ ^   
+parser.c:630:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:632:1: note: here
+ case 2:
+ ^~~~
+parser.c:637:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:639:1: note: here
+ case 3:
+ ^~~~
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+parser.c:644:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:646:1: note: here
+ case 4:
+ ^~~~
+parser.c:651:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:653:1: note: here
+ case 5:
+ ^~~~
+parser.c:658:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:660:1: note: here
+ case 6:
+ ^~~~
+parser.c:665:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:667:1: note: here
+ case 7:
+ ^~~~
+parser.c:672:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:674:1: note: here
+ case 8:
+ ^~~~
+parser.c:679:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:681:1: note: here
+ case 9:
+ ^~~~
+parser.c:686:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:688:1: note: here
+ case 10:
+ ^~~~
+parser.c:693:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:695:1: note: here
+ case 11:
+ ^~~~
+parser.c:700:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:702:1: note: here
+ case 12:
+ ^~~~
+parser.c:707:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:709:1: note: here
+ case 13:
+ ^~~~
+parser.c:714:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:716:1: note: here
+ case 14:
+ ^~~~
+parser.c:721:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:723:1: note: here
+ case 15:
+ ^~~~
+parser.c:728:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:730:1: note: here
+ case 16:
+ ^~~~
+parser.c:735:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:737:1: note: here
+ case 17:
+ ^~~~
+parser.c:742:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:744:1: note: here
+ case 18:
+ ^~~~
+parser.c:749:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:751:1: note: here
+ case 19:
+ ^~~~
+parser.c:756:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:758:1: note: here
+ case 20:
+ ^~~~
+parser.c: In function ‘JSON_parse_string’:
+parser.c:1447:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1449:1: note: here
+ case 2:
+ ^~~~
+parser.c:1479:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1481:1: note: here
+ case 3:
+ ^~~~
+parser.c:1488:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1490:1: note: here
+ case 4:
+ ^~~~
+parser.c:1501:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1503:1: note: here
+ case 5:
+ ^~~~
+parser.c:1514:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1516:1: note: here
+ case 6:
+ ^~~~
+parser.c:1527:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1529:1: note: here
+ case 7:
+ ^~~~
+parser.c: In function ‘JSON_parse_float’:
+parser.c:939:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:941:1: note: here
+ case 2:
+ ^~~~
+parser.c:948:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:950:1: note: here
+ case 3:
+ ^~~~
+parser.c:958:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:960:1: note: here
+ case 4:
+ ^~~~
+parser.c:965:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:967:1: note: here
+ case 8:
+ ^~~~
+parser.c:989:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:991:1: note: here
+ case 5:
+ ^~~~
+parser.c:1000:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1002:1: note: here
+ case 6:
+ ^~~~
+parser.c:1007:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1009:1: note: here
+ case 10:
+ ^~~~
+parser.c:1021:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1023:1: note: here
+ case 7:
+ ^~~~
+parser.c: In function ‘JSON_parse_integer’:
+parser.c:840:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:842:1: note: here
+ case 2:
+ ^~~~
+parser.c:849:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:851:1: note: here
+ case 3:
+ ^~~~
+parser.c:866:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:868:1: note: here
+ case 5:
+ ^~~~
+parser.c: In function ‘JSON_parse_array’:
+parser.c:1106:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1108:1: note: here
+ case 2:
+ ^~~~
+parser.rl:394:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 
+     ^
+parser.rl:396:1: note: here
+ 
+ ^   
+parser.c:1163:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1165:1: note: here
+ case 4:
+ ^~~~
+parser.c:1187:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1189:1: note: here
+ case 5:
+ ^~~~
+parser.c:1196:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1198:1: note: here
+ case 6:
+ ^~~~
+parser.c:1203:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1205:1: note: here
+ case 7:
+ ^~~~
+parser.c:1212:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1214:1: note: here
+ case 8:
+ ^~~~
+parser.c:1219:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1221:1: note: here
+ case 9:
+ ^~~~
+parser.c:1228:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1230:1: note: here
+ case 10:
+ ^~~~
+parser.c:1235:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1237:1: note: here
+ case 11:
+ ^~~~
+parser.c:1244:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1246:1: note: here
+ case 12:
+ ^~~~
+parser.c:1261:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1263:1: note: here
+ case 13:
+ ^~~~
+parser.c:1270:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1272:1: note: here
+ case 14:
+ ^~~~
+parser.c:1277:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1279:1: note: here
+ case 15:
+ ^~~~
+parser.c:1286:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1288:1: note: here
+ case 16:
+ ^~~~
+parser.c: In function ‘JSON_parse_object’:
+parser.c:156:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:158:1: note: here
+ case 2:
+ ^~~~
+parser.rl:162:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 
+     ^
+parser.rl:164:1: note: here
+     next_pair   = ignore* value_separator pair;
+ ^   
+parser.c:194:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:196:1: note: here
+ case 4:
+ ^~~~
+parser.c:203:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:205:1: note: here
+ case 5:
+ ^~~~
+parser.c:210:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:212:1: note: here
+ case 6:
+ ^~~~
+parser.c:219:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:221:1: note: here
+ case 7:
+ ^~~~
+parser.c:226:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:228:1: note: here
+ case 8:
+ ^~~~
+parser.rl:154:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         char *np;
+     ^
+parser.rl:156:1: note: here
+         np = JSON_parse_string(json, fpc, pe, &last_name);
+ ^   
+parser.c:282:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:284:1: note: here
+ case 10:
+ ^~~~
+parser.c:295:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:297:1: note: here
+ case 11:
+ ^~~~
+parser.c:304:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:306:1: note: here
+ case 12:
+ ^~~~
+parser.c:311:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:313:1: note: here
+ case 13:
+ ^~~~
+parser.c:320:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:322:1: note: here
+ case 14:
+ ^~~~
+parser.c:327:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:329:1: note: here
+ case 15:
+ ^~~~
+parser.c:336:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:338:1: note: here
+ case 16:
+ ^~~~
+parser.c:343:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:345:1: note: here
+ case 17:
+ ^~~~
+parser.c:352:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:354:1: note: here
+ case 18:
+ ^~~~
+parser.c:369:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:371:1: note: here
+ case 19:
+ ^~~~
+parser.c:378:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:380:1: note: here
+ case 20:
+ ^~~~
+parser.c:385:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:387:1: note: here
+ case 21:
+ ^~~~
+parser.c:394:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:396:1: note: here
+ case 22:
+ ^~~~
+parser.c:401:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:403:1: note: here
+ case 23:
+ ^~~~
+parser.c:410:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:412:1: note: here
+ case 24:
+ ^~~~
+parser.c:417:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:419:1: note: here
+ case 25:
+ ^~~~
+parser.c:426:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:428:1: note: here
+ case 26:
+ ^~~~
+parser.c: In function ‘cParser_parse_strict’:
+parser.c:1786:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1788:1: note: here
+ case 1:
+ ^~~~
+parser.c:1803:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1805:1: note: here
+ case 2:
+ ^~~~
+parser.c:1812:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1814:1: note: here
+ case 3:
+ ^~~~
+parser.c:1819:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1821:1: note: here
+ case 4:
+ ^~~~
+parser.c:1828:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1830:1: note: here
+ case 5:
+ ^~~~
+parser.rl:749:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         char *np;
+     ^
+parser.rl:751:1: note: here
+         np = JSON_parse_array(json, fpc, pe, &result);
+ ^   
+parser.c:1866:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1868:1: note: here
+ case 6:
+ ^~~~
+parser.c:1875:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1877:1: note: here
+ case 7:
+ ^~~~
+parser.c:1882:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1884:1: note: here
+ case 8:
+ ^~~~
+parser.c:1891:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if ( ++p == pe )
+     ^
+parser.c:1893:1: note: here
+ case 9:
+ ^~~~
+compiling complex.c
+generator.c: In function ‘convert_UTF8_to_JSON_ASCII’:
+generator.c:148:41: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             case 5: ch += *source++; ch <<= 6; /* remember, illegal UTF-8 */
+                                      ~~~^~~~~
+generator.c:149:13: note: here
+             case 4: ch += *source++; ch <<= 6; /* remember, illegal UTF-8 */
+             ^~~~
+generator.c:149:41: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             case 4: ch += *source++; ch <<= 6; /* remember, illegal UTF-8 */
+                                      ~~~^~~~~
+generator.c:150:13: note: here
+             case 3: ch += *source++; ch <<= 6;
+             ^~~~
+generator.c:150:41: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             case 3: ch += *source++; ch <<= 6;
+                                      ~~~^~~~~
+generator.c:151:13: note: here
+             case 2: ch += *source++; ch <<= 6;
+             ^~~~
+generator.c:151:41: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             case 2: ch += *source++; ch <<= 6;
+                                      ~~~^~~~~
+generator.c:152:13: note: here
+             case 1: ch += *source++; ch <<= 6;
+             ^~~~
+generator.c:152:41: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             case 1: ch += *source++; ch <<= 6;
+                                      ~~~^~~~~
+generator.c:153:13: note: here
+             case 0: ch += *source++;
+             ^~~~
+generator.c: In function ‘isLegalUTF8’:
+generator.c:86:46: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         case 4: if ((a = (*--srcptr)) < 0x80 || a > 0xBF) return 0;
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+generator.c:87:9: note: here
+         case 3: if ((a = (*--srcptr)) < 0x80 || a > 0xBF) return 0;
+         ^~~~
+generator.c:87:46: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         case 3: if ((a = (*--srcptr)) < 0x80 || a > 0xBF) return 0;
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+generator.c:88:9: note: here
+         case 2: if ((a = (*--srcptr)) > 0xBF) return 0;
+         ^~~~
+generator.c:96:39: warning: this statement may fall through [-Wimplicit-fallthrough=]
+                         default:   if (a < 0x80) return 0;
+                                       ^
+generator.c:99:9: note: here
+         case 1: if (*source >= 0x80 && *source < 0xC2) return 0;
+         ^~~~
+linking shared-object mathn/complex.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/mathn/complex'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling rational.c
+linking shared-object date_core.so
+linking shared-object mathn/rational.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/date'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling nkf.c
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/mathn/rational'
+installing default nkf libraries
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling object_tracing.c
+compiling objspace.c
+compiling objspace_dump.c
+objspace.c: In function ‘total_i’:
+objspace.c:64:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (FL_TEST(v, FL_SINGLETON))
+      ^
+objspace.c:66:8: note: here
+        default:
+        ^~~~~~~
+In file included from nkf.c:62:0:
+nkf-utf8/nkf.c: In function ‘module_connection’:
+nkf-utf8/nkf.c:5709:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if (nkf_enc_unicode_p(output_encoding))
+     ^~
+nkf-utf8/nkf.c:5712:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  if (x0201_f == NKF_UNSPECIFIED) {
+  ^~
+nkf-utf8/nkf.c: In function ‘options’:
+nkf-utf8/nkf.c:6806:22: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      fold_preserve_f = TRUE;
+nkf-utf8/nkf.c:6807:2: note: here
+  case 'f':   /* folding -f60 or -f */
+  ^~~~
+In file included from nkf.c:62:0:
+nkf-utf8/nkf.c: In function ‘set_input_encoding’:
+nkf-utf8/nkf.c:1238:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  if (x0201_f == NKF_UNSPECIFIED) x0201_f = FALSE; /* -x specified implicitly */
+     ^
+nkf-utf8/nkf.c:1239:5: note: here
+     case CP50220:
+     ^~~~
+linking shared-object json/ext/parser.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/json/parser'
+make[2]: Entering directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+compiling ossl_ssl_session.c
+compiling ossl_ocsp.c
+compiling ossl_x509req.c
+compiling ossl_ns_spki.c
+In file included from ossl.h:58:0,
+                 from ossl_ssl_session.c:5:
+/usr/include/openssl/asn1_mac.h:10:2: error: #error "This file is obsolete; please update your software."
+ #error "This file is obsolete; please update your software."
+  ^~~~~
+In file included from ossl.h:58:0,
+                 from ossl_ocsp.c:12:
+/usr/include/openssl/asn1_mac.h:10:2: error: #error "This file is obsolete; please update your software."
+ #error "This file is obsolete; please update your software."
+  ^~~~~
+In file included from ossl.h:58:0,
+                 from ossl_x509req.c:11:
+/usr/include/openssl/asn1_mac.h:10:2: error: #error "This file is obsolete; please update your software."
+ #error "This file is obsolete; please update your software."
+  ^~~~~
+In file included from ossl.h:58:0,
+                 from ossl_ns_spki.c:11:
+/usr/include/openssl/asn1_mac.h:10:2: error: #error "This file is obsolete; please update your software."
+ #error "This file is obsolete; please update your software."
+  ^~~~~
+In file included from ossl.h:219:0,
+                 from ossl_ssl_session.c:5:
+openssl_missing.h:79:35: error: macro "EVP_MD_CTX_create" passed 1 arguments, but takes just 0
+ EVP_MD_CTX *EVP_MD_CTX_create(void);
+                                   ^
+In file included from /usr/include/openssl/x509.h:23:0,
+                 from /usr/include/openssl/x509v3.h:14,
+                 from ossl.h:59,
+                 from ossl_ssl_session.c:5:
+openssl_missing.h:83:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_init(EVP_MD_CTX *ctx);
+      ^
+openssl_missing.h:91:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_destroy(EVP_MD_CTX *ctx);
+      ^
+ossl_ssl_session.c: In function ‘SSL_SESSION_cmp’:
+ossl_ssl_session.c:79:10: error: dereferencing pointer to incomplete type ‘SSL_SESSION {aka const struct ssl_session_st}’
+     if (a->ssl_version != b->ssl_version ||
+          ^~
+ossl_ssl_session.c:83:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make[2]: *** [Makefile:293: ossl_ssl_session.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from ossl.h:219:0,
+                 from ossl_ocsp.c:12:
+openssl_missing.h:79:35: error: macro "EVP_MD_CTX_create" passed 1 arguments, but takes just 0
+ EVP_MD_CTX *EVP_MD_CTX_create(void);
+                                   ^
+In file included from /usr/include/openssl/x509.h:23:0,
+                 from /usr/include/openssl/x509v3.h:14,
+                 from ossl.h:59,
+                 from ossl_ocsp.c:12:
+openssl_missing.h:83:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_init(EVP_MD_CTX *ctx);
+      ^
+openssl_missing.h:91:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_destroy(EVP_MD_CTX *ctx);
+      ^
+ossl_ocsp.c: In function ‘ossl_ocspbres_add_status’:
+ossl_ocsp.c:698:35: error: dereferencing pointer to incomplete type ‘OCSP_SINGLERESP {aka struct ocsp_single_response_st}’
+  sk_X509_EXTENSION_pop_free(single->singleExtensions, X509_EXTENSION_free);
+                                   ^~
+ossl_ocsp.c: In function ‘ossl_ocspcid_get_serial’:
+ossl_ocsp.c:955:33: error: dereferencing pointer to incomplete type ‘OCSP_CERTID {aka struct ocsp_cert_id_st}’
+     return asn1integer_to_num(id->serialNumber);
+                                 ^~
+ossl_ocsp.c:956:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make[2]: *** [Makefile:293: ossl_ocsp.o] Error 1
+In file included from ossl.h:219:0,
+                 from ossl_x509req.c:11:
+openssl_missing.h:79:35: error: macro "EVP_MD_CTX_create" passed 1 arguments, but takes just 0
+ EVP_MD_CTX *EVP_MD_CTX_create(void);
+                                   ^
+In file included from /usr/include/openssl/x509.h:23:0,
+                 from /usr/include/openssl/x509v3.h:14,
+                 from ossl.h:59,
+                 from ossl_x509req.c:11:
+openssl_missing.h:83:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_init(EVP_MD_CTX *ctx);
+      ^
+openssl_missing.h:91:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_destroy(EVP_MD_CTX *ctx);
+      ^
+ossl_x509req.c: In function ‘ossl_x509req_get_signature_algorithm’:
+ossl_x509req.c:311:34: error: dereferencing pointer to incomplete type ‘X509_REQ {aka struct X509_req_st}’
+     if (!i2a_ASN1_OBJECT(out, req->sig_alg->algorithm)) {
+                                  ^~
+make[2]: *** [Makefile:293: ossl_x509req.o] Error 1
+In file included from ossl.h:219:0,
+                 from ossl_ns_spki.c:11:
+openssl_missing.h:79:35: error: macro "EVP_MD_CTX_create" passed 1 arguments, but takes just 0
+ EVP_MD_CTX *EVP_MD_CTX_create(void);
+                                   ^
+In file included from /usr/include/openssl/x509.h:23:0,
+                 from /usr/include/openssl/x509v3.h:14,
+                 from ossl.h:59,
+                 from ossl_ns_spki.c:11:
+openssl_missing.h:83:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_init(EVP_MD_CTX *ctx);
+      ^
+openssl_missing.h:91:6: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ void EVP_MD_CTX_destroy(EVP_MD_CTX *ctx);
+      ^
+make[2]: *** [Makefile:293: ossl_ns_spki.o] Error 1
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/openssl'
+make[1]: *** [exts.mk:201: ext/openssl/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+linking shared-object objspace.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/objspace'
+linking shared-object json/ext/generator.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/json/generator'
+linking shared-object nkf.so
+make[2]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3/ext/nkf'
+make[1]: Leaving directory '/tmp/ruby-build.20180525195325.26815/ruby-2.2.3'
+make: *** [uncommon.mk:189: build-ext] Error 2
